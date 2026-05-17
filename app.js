@@ -44,11 +44,11 @@ createApp({
     const requestedName = new URLSearchParams(window.location.search).get("name")?.trim().toLowerCase() || "";
 
     const jabs = [
-      "Ahn ahn, don't disgrace us. The Yes button has worn gele now. Clock it.",
-      "No ke? Even the aso-oke is looking at you somehow. Oshee, press Yes.",
-      "Fine girl, this is giving unserious. The bridal committee needs your baddie energy.",
-      "You are forming hard to get for your own friend's wedding? No gree for this No button.",
-      "No again? Oya, the Yes button has upgraded to VIP size. Sope purrr.",
+      "Clock it, babe. This No button is not part of the wedding mood board.",
+      "Oshee, premium lady. The aso-oke is calling and you are doing missed call?",
+      "Fine girl, this is giving unserious. Bring that baddie energy to the Yes button.",
+      "No gree for this No button. It is trying to block your soft-life assignment.",
+      "Sope purrr, the Yes button just entered its main-character era.",
       "Achalugo, don't stress me. Your seat in the aso-oke department is already reserved.",
       "This No is not very demure, not very mindful. Choose joy, abeg.",
       "Odogwu behavior is saying Yes and entering the group chat with confidence.",
