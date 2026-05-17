@@ -127,8 +127,6 @@ createApp({
       <div class="relative grid min-h-screen lg:grid-cols-[minmax(300px,34vw)_minmax(0,1fr)]">
         <div class="mobile-textile-banner aso-textile relative mx-4 mt-4 overflow-hidden rounded-lg border border-white/50 shadow-lg lg:hidden">
           <div class="absolute inset-0 bg-gradient-to-r from-[#210f14]/18 via-transparent to-[#fff8ec]/16"></div>
-          <div class="mobile-bead-arc absolute right-5 top-4 h-12 w-12 opacity-90" aria-hidden="true"></div>
-          <div class="mobile-adire-chip absolute left-4 top-4 h-10 w-16 rotate-[-7deg] opacity-80" aria-hidden="true"></div>
           <div class="relative flex h-full items-end justify-between px-4 pb-3 text-white">
             <span class="text-[0.68rem] font-extrabold uppercase tracking-[.18em] text-[#fff2be]">Aso-oke circle</span>
             <div class="flex gap-1.5" aria-hidden="true">
@@ -151,13 +149,6 @@ createApp({
         </aside>
 
         <section class="relative flex min-h-screen items-center px-4 py-8 sm:px-8 lg:pl-20 lg:pr-10 xl:pl-24 xl:pr-14">
-          <div class="mobile-prop-row pointer-events-none mb-2 flex items-center justify-end gap-4 lg:hidden" aria-hidden="true">
-            <div class="mobile-raffia-fan"></div>
-            <div class="mobile-clay-pot"></div>
-            <div class="mobile-beads flex gap-1.5">
-              <span></span><span></span><span></span><span></span>
-            </div>
-          </div>
           <div class="tie-dye-mark absolute right-8 top-10 hidden h-36 w-36 opacity-45 lg:block"></div>
           <div class="clay-pot absolute bottom-12 right-[34rem] hidden opacity-60 xl:block"></div>
           <div class="adire-swatch absolute right-20 top-52 hidden h-24 w-36 rotate-6 opacity-70 xl:block"></div>
