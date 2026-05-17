@@ -125,6 +125,18 @@ createApp({
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_76%_12%,rgba(247,186,62,.28),transparent_26rem),radial-gradient(circle_at_24%_88%,rgba(13,111,104,.18),transparent_24rem)]"></div>
 
       <div class="relative grid min-h-screen lg:grid-cols-[minmax(300px,34vw)_minmax(0,1fr)]">
+        <div class="mobile-textile-banner aso-textile relative mx-4 mt-4 overflow-hidden rounded-lg border border-white/50 shadow-lg lg:hidden">
+          <div class="absolute inset-0 bg-gradient-to-r from-[#210f14]/18 via-transparent to-[#fff8ec]/16"></div>
+          <div class="relative flex h-full items-end justify-between px-4 pb-3 text-white">
+            <span class="text-[0.68rem] font-extrabold uppercase tracking-[.18em] text-[#fff2be]">Aso-oke circle</span>
+            <div class="flex gap-1.5" aria-hidden="true">
+              <span class="h-2.5 w-2.5 rounded-full bg-[#fff1be]"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-[#d89b25]"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-[#8d1f36]"></span>
+            </div>
+          </div>
+        </div>
+
         <aside class="relative hidden items-end overflow-hidden lg:flex">
           <div class="absolute inset-0 aso-textile"></div>
           <div class="absolute inset-0 bg-gradient-to-t from-[#210f14]/45 via-transparent to-transparent"></div>

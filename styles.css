@@ -28,6 +28,10 @@ button {
   background-size: 18px 18px, 18px 18px, 360px 360px, 360px 360px, 72px 72px;
 }
 
+.mobile-textile-banner {
+  height: 112px;
+}
+
 .mat-accent {
   border-radius: 6px;
   background-color: rgba(184, 124, 56, .34);
@@ -163,6 +167,10 @@ button {
 }
 
 @media (max-width: 640px) {
+  .mobile-textile-banner {
+    height: 86px;
+  }
+
   .hero-title {
     max-width: 9ch;
     font-size: clamp(2.65rem, 13vw, 4.2rem);
