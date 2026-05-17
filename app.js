@@ -74,7 +74,7 @@ createApp({
     const personalDescription = computed(() => {
       return selectedGirl.value
         ? selectedGirl.value.description
-        : "Every woman in this circle has her own place in my heart. Pick a name link to show a personal note for that Aso-Oke Lady.";
+        : "Every woman in this circle has her own place in my heart,stood strong for me and have multiple pages in this book called my life, Please come clock it with me and add another page";
     });
 
     function chooseNo() {
