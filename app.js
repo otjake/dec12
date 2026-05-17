@@ -163,9 +163,9 @@ createApp({
 
               <section class="mt-6 max-w-2xl rounded-lg border border-[#d89b25]/25 bg-white/80 p-5 shadow-sm backdrop-blur slide-up" aria-label="Personal note">
                 <div class="mb-4 flex items-center gap-2" aria-hidden="true">
-                  <span class="h-3 w-3 rounded-full bg-[#8d1f36] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
-                  <span class="h-3 w-3 rounded-full bg-[#d89b25] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
-                  <span class="h-3 w-3 rounded-full bg-[#0d6f68] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
+                  <span class="bead-dot h-3 w-3 rounded-full bg-[#8d1f36] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
+                  <span class="bead-dot h-3 w-3 rounded-full bg-[#d89b25] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
+                  <span class="bead-dot h-3 w-3 rounded-full bg-[#0d6f68] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
                 </div>
                 <p class="text-xs font-extrabold uppercase tracking-[.14em] text-[#946411]">
                   {{ selectedGirl ? "Why you are special to me" : "My Aso-Oke girls" }}
@@ -214,7 +214,7 @@ createApp({
               </div>
 
               <p class="mt-5 min-h-12 max-w-2xl text-lg font-extrabold leading-7 text-[#8d1f36]" role="status">
-                {{ note }}
+                <span :key="note" class="note-pop inline-block">{{ note }}</span>
               </p>
 
             </div>

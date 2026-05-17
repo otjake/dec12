@@ -44,6 +44,7 @@ button {
     radial-gradient(circle at 32% 28%, rgba(13, 111, 104, .18), transparent 34%),
     radial-gradient(circle at 68% 72%, rgba(141, 31, 54, .16), transparent 36%);
   filter: blur(.2px);
+  animation: slow-turn 18s linear infinite;
 }
 
 .clay-pot {
@@ -55,6 +56,7 @@ button {
     linear-gradient(90deg, transparent 0 14%, #9b5735 15% 26%, transparent 27% 73%, #9b5735 74% 85%, transparent 86%),
     linear-gradient(180deg, #c07242 0 22%, #a55733 23% 68%, #7d3d28 69% 100%);
   box-shadow: inset 10px 0 18px rgba(255, 222, 176, .18), inset -12px 0 18px rgba(70, 32, 24, .22), 0 18px 32px rgba(84, 43, 28, .18);
+  animation: prop-breathe 5.8s ease-in-out infinite;
 }
 
 .clay-pot::before {
@@ -73,6 +75,7 @@ button {
   border-radius: 50%;
   border: 12px dotted rgba(255, 220, 142, .8);
   filter: drop-shadow(0 12px 18px rgba(24, 13, 11, .18));
+  animation: bead-glow 3.8s ease-in-out infinite;
 }
 
 .bead-row {
@@ -85,10 +88,12 @@ button {
   border-radius: 50%;
   background: #8d1f36;
   box-shadow: 0 0 0 3px rgba(255, 241, 190, .65), 0 8px 14px rgba(68, 27, 24, .14);
+  animation: bead-bounce 2.8s ease-in-out infinite;
 }
 
 .bead-row span:nth-child(even) {
   background: #d89b25;
+  animation-delay: 160ms;
 }
 
 .adire-swatch {
@@ -100,6 +105,7 @@ button {
     radial-gradient(circle at 82% 22%, transparent 0 7px, rgba(255, 255, 255, .7) 8px 10px, transparent 11px),
     repeating-linear-gradient(135deg, transparent 0 18px, rgba(255, 255, 255, .16) 18px 21px, transparent 21px 39px);
   box-shadow: 0 18px 34px rgba(18, 72, 113, .16);
+  animation: fabric-drift 7s ease-in-out infinite;
 }
 
 .raffia-fan {
@@ -111,6 +117,7 @@ button {
     repeating-conic-gradient(from -54deg at 50% 100%, rgba(214, 170, 92, .45) 0 6deg, rgba(255, 238, 178, .45) 6deg 11deg);
   clip-path: polygon(50% 100%, 3% 9%, 13% 0, 50% 0, 87% 0, 97% 9%);
   filter: drop-shadow(0 18px 24px rgba(98, 60, 26, .12));
+  animation: fan-sway 6s ease-in-out infinite;
 }
 
 .raffia-fan::after {
@@ -128,6 +135,7 @@ button {
   border-radius: 50%;
   border: 11px dotted #c84932;
   filter: drop-shadow(0 12px 18px rgba(112, 42, 30, .18));
+  animation: slow-turn 16s linear infinite reverse;
 }
 
 .coral-bracelet::after {
@@ -136,6 +144,22 @@ button {
   inset: 22px;
   border-radius: 50%;
   border: 5px solid rgba(216, 155, 37, .55);
+}
+
+.bead-dot {
+  animation: bead-glow 3s ease-in-out infinite;
+}
+
+.bead-dot:nth-child(2) {
+  animation-delay: 180ms;
+}
+
+.bead-dot:nth-child(3) {
+  animation-delay: 360ms;
+}
+
+.note-pop {
+  animation: note-pop 260ms ease both;
 }
 
 @media (max-width: 640px) {
@@ -239,5 +263,79 @@ button {
 
   75% {
     transform: translateX(5px);
+  }
+}
+
+@keyframes slow-turn {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes prop-breathe {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-6px) scale(1.03);
+  }
+}
+
+@keyframes bead-glow {
+  0%, 100% {
+    opacity: .72;
+    filter: brightness(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.15);
+  }
+}
+
+@keyframes bead-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes fabric-drift {
+  0%, 100% {
+    transform: translateY(0) rotate(6deg);
+  }
+
+  50% {
+    transform: translateY(-8px) rotate(9deg);
+  }
+}
+
+@keyframes fan-sway {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: rotate(4deg);
+  }
+}
+
+@keyframes note-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
