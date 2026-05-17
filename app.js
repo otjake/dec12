@@ -123,6 +123,8 @@ createApp({
         <aside class="relative hidden items-end overflow-hidden lg:flex">
           <div class="absolute inset-0 aso-textile"></div>
           <div class="absolute inset-0 bg-gradient-to-t from-[#210f14]/45 via-transparent to-transparent"></div>
+          <div class="mat-accent absolute left-8 top-10 h-28 w-44 rotate-[-8deg] opacity-80"></div>
+          <div class="bead-strand absolute right-8 top-16 h-24 w-24 opacity-80"></div>
           <div class="relative m-10 w-full rounded-lg border border-white/25 bg-white/12 p-6 text-white shadow-2xl backdrop-blur-md slide-up">
             <p class="text-xs font-extrabold uppercase tracking-[.18em] text-[#fff2be]">Dec 12 bridal circle</p>
             <p class="mt-4 max-w-sm font-display text-3xl leading-tight">Aso-oke, gele, beads, fan, and full owanbe confidence.</p>
@@ -130,6 +132,11 @@ createApp({
         </aside>
 
         <section class="relative flex min-h-screen items-center px-4 py-8 sm:px-8 lg:pl-20 lg:pr-10 xl:pl-24 xl:pr-14">
+          <div class="tie-dye-mark absolute right-8 top-10 hidden h-36 w-36 opacity-45 lg:block"></div>
+          <div class="clay-pot absolute bottom-12 right-[34rem] hidden opacity-60 xl:block"></div>
+          <div class="bead-row absolute bottom-10 left-20 hidden opacity-70 lg:flex" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
           <div class="mx-auto grid w-full max-w-6xl min-w-0 gap-8 xl:grid-cols-[minmax(0,1fr)_330px] xl:items-center">
             <div class="min-w-0 slide-up">
               <div class="mb-6 inline-flex items-center gap-3 rounded-full border border-[#d73545]/20 bg-white/70 px-4 py-2 text-xs font-extrabold uppercase text-[#8d1f36] shadow-sm">
@@ -163,7 +170,7 @@ createApp({
                 </div>
                 <div class="rounded-lg border border-[#d73545]/15 bg-white/75 p-4 shadow-sm backdrop-blur">
                   <p class="text-xs font-bold uppercase text-[#8d1f36]">Energy</p>
-                  <p class="mt-2 font-semibold">Best-lady level</p>
+                  <p class="mt-2 font-semibold">Beads and joy</p>
                 </div>
                 <div class="rounded-lg border border-[#d89b25]/20 bg-white/75 p-4 shadow-sm backdrop-blur">
                   <p class="text-xs font-bold uppercase text-[#946411]">Mission</p>
@@ -202,6 +209,7 @@ createApp({
 
             <div class="relative mx-auto w-full max-w-[330px] pop-in max-xl:hidden">
               <div class="absolute -inset-4 rounded-full border border-[#d89b25]/30"></div>
+              <div class="mat-accent absolute -bottom-8 -left-10 h-20 w-28 rotate-12 opacity-70"></div>
               <div class="float-soft relative overflow-hidden rounded-lg border border-[#24100f]/10 bg-white shadow-2xl">
                 <div class="aso-textile h-48"></div>
                 <div class="p-6">
