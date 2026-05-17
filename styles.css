@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+button {
+  font: inherit;
+}
+
+.hero-title {
+  font-size: clamp(2.85rem, 5.7vw, 5rem);
+  line-height: .98;
+}
+
+.aso-textile {
+  background-color: #0d6f68;
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, .22) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, .16) 1px, transparent 1px),
+    linear-gradient(90deg, transparent 0 9%, rgba(255, 241, 190, .34) 9% 23%, transparent 23% 44%, rgba(255, 241, 190, .22) 44% 55%, transparent 55% 78%, rgba(255, 241, 190, .28) 78% 88%, transparent 88%),
+    linear-gradient(0deg, transparent 0 12%, rgba(247, 186, 62, .9) 12% 29%, transparent 29% 47%, rgba(123, 23, 50, .94) 47% 62%, transparent 62% 80%, rgba(242, 111, 73, .88) 80% 92%, transparent 92%),
+    repeating-linear-gradient(45deg, transparent 0 22px, rgba(255, 247, 223, .22) 22px 25px, transparent 25px 46px);
+  background-size: 18px 18px, 18px 18px, 360px 360px, 360px 360px, 72px 72px;
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    max-width: 9ch;
+    font-size: clamp(2.65rem, 13vw, 4.2rem);
+    line-height: .98;
+  }
+}
+
+.sparkle {
+  animation: sparkle 2.8s ease-in-out infinite;
+}
+
+.float-soft {
+  animation: float-soft 5.4s ease-in-out infinite;
+}
+
+.pulse-ring {
+  animation: pulse-ring 1.8s ease-out infinite;
+}
+
+.slide-up {
+  animation: slide-up 700ms cubic-bezier(.2, .8, .2, 1) both;
+}
+
+.pop-in {
+  animation: pop-in 520ms cubic-bezier(.18, .95, .32, 1.22) both;
+}
+
+.shake-small {
+  animation: shake-small 360ms ease both;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: .45;
+    transform: scale(.92) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.08) rotate(8deg);
+  }
+}
+
+@keyframes float-soft {
+  0%, 100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    opacity: .45;
+    transform: scale(.92);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.18);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(.86);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shake-small {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+}
