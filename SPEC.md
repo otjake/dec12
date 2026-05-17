@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is a lightweight wedding invitation web page asking selected ladies to be the bride's Aso-Oke Ladies for `#D'sSylvar`.
+This is a lightweight wedding invitation web page asking selected ladies to be the bride's Aso-Oke Ladies for `#D's_Sylvar`.
 
 The site is playful, Nigerian/Yoruba-inspired, and built as a static page that can run on GitHub Pages.
 

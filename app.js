@@ -52,7 +52,7 @@ createApp({
       "Achalugo, don't stress me. Your seat in the aso-oke department is already reserved.",
       "This No is not very demure, not very mindful. Choose joy, abeg.",
       "Odogwu behavior is saying Yes and entering the group chat with confidence.",
-      "You want to miss premium owanbe gist? My sister, let's be guided.",
+      "You want to miss premium owanbe gist? My Queen, let's be guided.",
       "The Yes button is now the main character. Respect the storyline."
     ];
 
@@ -148,7 +148,7 @@ createApp({
             <div class="min-w-0 slide-up">
               <div class="mb-6 inline-flex items-center gap-3 rounded-full border border-[#d73545]/20 bg-white/70 px-4 py-2 text-xs font-extrabold uppercase text-[#8d1f36] shadow-sm">
                 <span class="h-2 w-2 rounded-full bg-[#0d6f68]"></span>
-                #D'sSylvar wedding request
+                #D's_Sylvar wedding request
               </div>
 
               <h1 class="hero-title max-w-2xl font-display text-[#24100f]">
