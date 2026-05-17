@@ -134,6 +134,8 @@ createApp({
         <section class="relative flex min-h-screen items-center px-4 py-8 sm:px-8 lg:pl-20 lg:pr-10 xl:pl-24 xl:pr-14">
           <div class="tie-dye-mark absolute right-8 top-10 hidden h-36 w-36 opacity-45 lg:block"></div>
           <div class="clay-pot absolute bottom-12 right-[34rem] hidden opacity-60 xl:block"></div>
+          <div class="adire-swatch absolute right-20 top-52 hidden h-24 w-36 rotate-6 opacity-70 xl:block"></div>
+          <div class="raffia-fan absolute bottom-28 right-10 hidden opacity-55 xl:block"></div>
           <div class="bead-row absolute bottom-10 left-20 hidden opacity-70 lg:flex" aria-hidden="true">
             <span></span><span></span><span></span><span></span><span></span><span></span>
           </div>
@@ -155,6 +157,11 @@ createApp({
               </p>
 
               <section class="mt-6 max-w-2xl rounded-lg border border-[#d89b25]/25 bg-white/80 p-5 shadow-sm backdrop-blur slide-up" aria-label="Personal note">
+                <div class="mb-4 flex items-center gap-2" aria-hidden="true">
+                  <span class="h-3 w-3 rounded-full bg-[#8d1f36] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
+                  <span class="h-3 w-3 rounded-full bg-[#d89b25] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
+                  <span class="h-3 w-3 rounded-full bg-[#0d6f68] shadow-[0_0_0_3px_rgba(255,241,190,.7)]"></span>
+                </div>
                 <p class="text-xs font-extrabold uppercase tracking-[.14em] text-[#946411]">
                   {{ selectedGirl ? "Why you are special to me" : "My Aso-Oke girls" }}
                 </p>
@@ -210,6 +217,7 @@ createApp({
             <div class="relative mx-auto w-full max-w-[330px] pop-in max-xl:hidden">
               <div class="absolute -inset-4 rounded-full border border-[#d89b25]/30"></div>
               <div class="mat-accent absolute -bottom-8 -left-10 h-20 w-28 rotate-12 opacity-70"></div>
+              <div class="coral-bracelet absolute -right-8 -top-8 h-24 w-24 opacity-85"></div>
               <div class="float-soft relative overflow-hidden rounded-lg border border-[#24100f]/10 bg-white shadow-2xl">
                 <div class="aso-textile h-48"></div>
                 <div class="p-6">
