@@ -44,11 +44,16 @@ createApp({
     const requestedName = new URLSearchParams(window.location.search).get("name")?.trim().toLowerCase() || "";
 
     const jabs = [
-      "Ahn ahn, don't disgrace us. The Yes button has worn gele now.",
-      "No ke? Even the aso-oke is looking at you somehow.",
-      "Be serious, fine girl. This bridal committee needs your premium energy.",
-      "You are forming hard to get for your own friend's wedding? Wonders.",
-      "No again? Oya, the Yes button has upgraded to VIP size."
+      "Ahn ahn, don't disgrace us. The Yes button has worn gele now. Clock it.",
+      "No ke? Even the aso-oke is looking at you somehow. Oshee, press Yes.",
+      "Fine girl, this is giving unserious. The bridal committee needs your baddie energy.",
+      "You are forming hard to get for your own friend's wedding? No gree for this No button.",
+      "No again? Oya, the Yes button has upgraded to VIP size. Sope purrr.",
+      "Achalugo, don't stress me. Your seat in the aso-oke department is already reserved.",
+      "This No is not very demure, not very mindful. Choose joy, abeg.",
+      "Odogwu behavior is saying Yes and entering the group chat with confidence.",
+      "You want to miss premium owanbe gist? My sister, let's be guided.",
+      "The Yes button is now the main character. Respect the storyline."
     ];
 
     const yesScale = computed(() => {
